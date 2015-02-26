@@ -21,7 +21,7 @@ node-latex-table('Rainbow');
 
 ## License
 
-MIT © [Philipp Burckhardt](www.philipp-burckhardt.com)
+MIT © [Philipp Burckhardt](http://www.philipp-burckhardt.com)
 
 
 [npm-url]: https://npmjs.org/package/node-latex-table
