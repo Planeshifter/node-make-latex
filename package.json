@@ -1,0 +1,36 @@
+{
+  "name": "node-latex-table",
+  "version": "0.0.0",
+  "description": "create LaTeX tables from inside node.js ",
+  "homepage": "https://github.com/Planeshifter/node-latex-table.git",
+  "author": {
+    "name": "Philipp Burckhardt",
+    "email": "pburckhardt@outlook.com",
+    "url": "www.philipp-burckhardt.com"
+  },
+  "repository": "Planeshifter/node-latex-table",
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "node-latex-table",
+    "latex",
+    "tables",
+    "reports"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "^1.0.0",
+    "grunt-mocha-cli": "^1.11.0",
+    "jshint-stylish": "^1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
