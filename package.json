@@ -10,9 +10,7 @@
   },
   "repository": "Planeshifter/node-make-latex",
   "license": "MIT",
-  "files": [
-    "lib/index.js"
-  ],
+  "main": "lib/index.js",
   "keywords": [
     "latex",
     "tables",
