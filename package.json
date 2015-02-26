@@ -11,7 +11,7 @@
   "repository": "Planeshifter/node-latex-table",
   "license": "MIT",
   "files": [
-    "index.js"
+    "lib/index.js"
   ],
   "keywords": [
     "node-latex-table",
@@ -19,7 +19,9 @@
     "tables",
     "reports"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "validate.io-object-array": "^1.0.0"
+  },
   "devDependencies": {
     "grunt-cli": "^0.1.13",
     "grunt-contrib-jshint": "^0.10.0",

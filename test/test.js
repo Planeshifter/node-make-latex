@@ -1,7 +1,7 @@
 /*global describe, it */
 'use strict';
 var assert = require('assert');
-var nodeLatexTable = require('../');
+var nodeLatexTable = require('../lib/index.js');
 
 describe('node-latex-table node module', function () {
   it('must have at least one test', function () {
