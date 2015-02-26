@@ -1,7 +1,7 @@
 {
   "name": "make-latex",
   "version": "0.0.1",
-  "description": "create LaTeX tables from inside node.js ",
+  "description": "create LaTeX tables from inside node.js",
   "homepage": "https://github.com/Planeshifter/node-latex-table.git",
   "author": {
     "name": "Philipp Burckhardt",
@@ -17,7 +17,7 @@
     "latex",
     "tables",
     "reports",
-    "reproducible-research
+    "reproducible-research"
   ],
   "dependencies": {
     "validate.io-object-array": "^1.0.0"
