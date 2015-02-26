@@ -1,6 +1,6 @@
 {
-  "name": "node-latex-table",
-  "version": "0.0.0",
+  "name": "make-latex",
+  "version": "0.0.1",
   "description": "create LaTeX tables from inside node.js ",
   "homepage": "https://github.com/Planeshifter/node-latex-table.git",
   "author": {
@@ -8,16 +8,16 @@
     "email": "pburckhardt@outlook.com",
     "url": "www.philipp-burckhardt.com"
   },
-  "repository": "Planeshifter/node-latex-table",
+  "repository": "Planeshifter/node-make-latex",
   "license": "MIT",
   "files": [
     "lib/index.js"
   ],
   "keywords": [
-    "node-latex-table",
     "latex",
     "tables",
-    "reports"
+    "reports",
+    "reproducible-research
   ],
   "dependencies": {
     "validate.io-object-array": "^1.0.0"
