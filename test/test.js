@@ -37,7 +37,6 @@ describe('convertObjArrToJS', function tests(){
       spec: "lc"
     });
 
-    console.log(res)
     expect(res).to.be.a("string");
   });
 });
