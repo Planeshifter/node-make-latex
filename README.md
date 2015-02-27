@@ -71,8 +71,8 @@ in each column and where to insert vertical lines.
 |  l  | left-justified column |
 |  c  | centered column |
 |  r  | right-justified column |
-|  | 	| vertical line |
-|  || |	double vertical line |
+|  \| 	| vertical line |
+|  \|\| |	double vertical line |
 
 #### Positions
 
