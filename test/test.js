@@ -3,8 +3,8 @@
 var chai = require('chai');
 var expect = chai.expect;
 var makeLatex = require( '../lib/index.js' );
-var convertObjArrToJS = require( '../lib/convertObjArrToJS.js' );
-var convertMatrixToJS = require( '../lib/convertMatrixToJS' );
+var convertObjArrToJS = require( '../lib/convertObjArr.js' );
+var convertMatrixToJS = require( '../lib/convertMatrix.js' );
 
 describe('make-latex node module', function tests() {
 
@@ -14,7 +14,7 @@ describe('make-latex node module', function tests() {
 
 });
 
-describe('convertObjArrToJS', function tests(){
+describe('convertObjArr', function tests(){
   it('turns an array of objects into a LaTeX table', function test(){
     var input = [
       {name:"Harry", age: 64},
@@ -42,9 +42,9 @@ describe('convertObjArrToJS', function tests(){
 });
 
 
-describe('convertMatrixToJS', function tests(){
+describe('convertMatrix', function tests(){
 
-  it('turn an array of arrays into a LaTeX table', function test(){
+  it('turns an array of arrays into a LaTeX table', function test(){
     var input = [
       [1, 2, 3],
       [4, 5, 6],
