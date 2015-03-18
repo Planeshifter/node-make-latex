@@ -1,7 +1,11 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+[![Dependencies][dependencies-image]][dependencies-url]
+
+# make-latex
 
 > create LaTeX tables from inside node.js
-
 
 ## Install
 
@@ -90,10 +94,14 @@ that can be placed in an array or the size an array can occupy.
 
 MIT © [Philipp Burckhardt](http://www.philipp-burckhardt.com)
 
-
 [npm-url]: https://npmjs.org/package/make-latex
 [npm-image]: https://badge.fury.io/js/make-latex.svg
+
 [travis-url]: https://travis-ci.org/Planeshifter/node-make-latex
 [travis-image]: https://travis-ci.org/Planeshifter/node-make-latex.svg?branch=master
+
+[coveralls-image]: https://img.shields.io/coveralls/Planeshifter/node-make-latex/master.svg
+[coveralls-url]: https://coveralls.io/r/Planeshifter/node-make-latex?branch=master
+
 [daviddm-url]: https://david-dm.org/Planeshifter/node-make-latex.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/Planeshifter/node-make-latex
