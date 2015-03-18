@@ -103,5 +103,5 @@ MIT © [Philipp Burckhardt](http://www.philipp-burckhardt.com)
 [coveralls-image]: https://img.shields.io/coveralls/Planeshifter/node-make-latex/master.svg
 [coveralls-url]: https://coveralls.io/r/Planeshifter/node-make-latex?branch=master
 
-[dependencies-url]: https://david-dm.org/Planeshifter/node-make-latex.svg?theme=shields.io
-[dependencies-image]: https://david-dm.org/Planeshifter/node-make-latex
+[dependencies-image]: https://david-dm.org/Planeshifter/node-make-latex.svg
+[dependencies-url]: https://david-dm.org/Planeshifter/node-make-latex
