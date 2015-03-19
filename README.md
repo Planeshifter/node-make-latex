@@ -51,6 +51,7 @@ Currently, the following types of objects are supported:
 1. An array of arrays, or more specifically a square matrix (inner arrays must all
   have equal length).
 2. An array of objects.
+3. An object
 
 The function accepts an optional options object which governs the created LaTeX output.
 The options object can have the following keys:
@@ -60,7 +61,7 @@ The options object can have the following keys:
 | caption       | Caption of the created table | none |
 | label         | Label of the created table | none |
 | captionPlacement         | Position of Caption, either "bottom" or "top" | "bottom" |
-| colnames      | If supplied, first row in table prints names of columns | Object.keys() for Array of Objects |
+| colnames      | If supplied, first row in table prints names of columns | Object.keys() for Array of Objects, ["Key", "Value"] for Object |
 | spec          | See Spec section      | centered, no vertical lines
 | pos           | See Positions section | none |
 
