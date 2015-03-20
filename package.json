@@ -18,6 +18,7 @@
     "reproducible-research"
   ],
   "dependencies": {
+    "validate.io-number-primitive": "^1.0.0",
     "validate.io-object": "^1.0.3",
     "validate.io-object-array": "^1.0.0",
     "validate.io-square-matrix": "^1.0.0",

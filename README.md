@@ -64,7 +64,7 @@ The options object can have the following keys:
 | colnames      | If supplied, first row in table prints names of columns | Object.keys() for Array of Objects, ["Key", "Value"] for Object |
 | spec          | See Spec section      | centered, no vertical lines
 | pos           | See Positions section | none |
-
+| digits        | Number of decimial places for numeric values | none |
 
 #### Spec
 
