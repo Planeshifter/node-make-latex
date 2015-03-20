@@ -46,7 +46,7 @@ describe( 'convertObjArr', function tests() {
     expect(res).to.be.a("string");
   });
 
-  it( 'works with custom spec', function test() {
+  it( 'works with all custom options', function test() {
     var input = [
       {name:"Harry", age: 64},
       {name:"Melanie", age: 38},
@@ -54,7 +54,13 @@ describe( 'convertObjArr', function tests() {
       {name:"Charlotte", age: 25}
     ];
     var res = makeLatex(input, {
-      spec: "lc"
+			'spec': 'lc',
+			'colnames': ['Name', 'Age'],
+			'pos': 'h',
+			'digits': 3,
+			'captionPlacement': 'bottom',
+			'caption': 'I am a caption',
+			'label': 'I am a label'
     });
 
     expect(res).to.be.a("string");
@@ -105,6 +111,25 @@ describe( 'convertMatrix', function tests() {
     expect(res).to.be.a("string");
   });
 
+	it( 'works with all custom options', function test() {
+		var input = [
+			[1, 2, 3],
+			[4, 5, 6],
+			[7, 8, 9]
+		];
+    var res = makeLatex(input, {
+			'spec': 'ccc',
+			'colnames': ['1','2','3'],
+			'pos': 'h',
+			'digits': 3,
+			'captionPlacement': 'bottom',
+			'caption': 'I am a caption',
+			'label': 'I am a label'
+    });
+
+    expect(res).to.be.a("string");
+  });
+
 	it( 'should throw when digits option is non-numeric', function test() {
 
 		var input = [
@@ -146,6 +171,24 @@ describe( 'convertObj', function tests() {
 		var res = makeLatex(input, {});
     expect(res).to.be.a("string");
 	});
+
+	it( 'works with all custom options', function test() {
+		var input = {
+			"name": "Henry",
+			"points": 3.22934839047
+		};
+		var res = makeLatex(input, {
+			'spec': 'lc',
+			'colnames': ['Property', 'Value'],
+			'pos': 'h',
+			'digits': 3,
+			'captionPlacement': 'bottom',
+			'caption': 'I am a caption',
+			'label': 'I am a label'
+		});
+		expect(res).to.be.a("string");
+	});
+
 
 	it( 'should throw when digits option is non-numeric', function test() {
 
